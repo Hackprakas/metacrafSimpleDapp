@@ -1,12 +1,12 @@
-# Starter Next/Hardhat Project
-
-After cloning the github, you will want to do the following to get the code running on your computer.
-
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
-
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+# Simple Dapp 
+This is a simple Dapp which demonstrates adding and retrieving values in blockchain using ether.js and Next js
+## Description
+This motive of the app is show how to write data to blockchain and retrieve those values...This app also shows how to write smart contracts for your dapp and compile it using hardhat..
+## Getting started
+1. To use this app,clone this repository and ``` npm i```
+2. After that compile the smart contract using ``` npx hardhat run scripts/deploy.js --network {network name}```
+3. Remember to replace the network rpc url and private key in hardhat.config.file
+4. Use the appropirate contract address after compiling
+## Authors
+Prakash
+@Hackprakas
